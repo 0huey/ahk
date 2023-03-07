@@ -298,7 +298,7 @@ namespace AudioOutputConsoleApp
                     return;
                 }
 
-                DeviceName = args[1];
+                DeviceName = args[1].ToLower();
             }
             else
             {
